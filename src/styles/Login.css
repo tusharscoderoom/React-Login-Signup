@@ -1,0 +1,22 @@
+.login-container {
+  position: relative;
+}
+
+/* .login-container::after {
+  content: "Sign up?";
+  text-align: center;
+  min-width: fit-content;
+  height: fit-content;
+  padding: 6px 12px;
+  position: absolute;
+  top: -5px;
+  right: 8px;
+  background-color: #5052ff;
+  color: white;
+  @apply rounded-b-lg;
+  @apply shadow-md;
+} */
+
+.login-container-md {
+  @apply md:flex;
+}

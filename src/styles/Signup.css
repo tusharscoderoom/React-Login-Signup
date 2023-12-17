@@ -1,0 +1,11 @@
+.sign-container {
+  @apply bg-white;
+  @apply py-0 px-12;
+  @apply flex flex-col-reverse;
+  @apply rounded-lg
+}
+
+.sign-container-md {
+  @apply md:flex-row;
+  @apply md:max-w-[100%];
+}
